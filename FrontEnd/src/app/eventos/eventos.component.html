@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<div class="cabecalho">
+    <img src="estrela.png" alt="Imagem da estrela">
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text"  [formControl]="searchTerm" id= "searchTerm" placeholder="Buscar eventos">
+            <button (click)="getAllEventos()">
+            Extrair eventos
+        </button>
+        </div>
+    </div>
+</div>
+
+<div class="eventos">
+@if (isLoading == true) {
+    <h1>Carregando...</h1>
+}
+
+@for (evento of filteredEventos(); track evento.Titulo) {
+
+    @if (evento.Titulo != "") {
+        <div class="evento">
+            <h2>{{ evento.Titulo }}</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Endereço: {{ evento.Endereco }}</p>
+            <p><i class="fas fa-calendar-alt"></i> Data: {{ evento.Data }}</p>
+        </div>
+    }
+}
+</div>
+
