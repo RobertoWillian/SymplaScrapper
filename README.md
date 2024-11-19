@@ -23,7 +23,7 @@ HUB este que centralizará algumas propostas e temas (feitos por outros alunos d
 
 O projeto ainda estána sua primeira versão e possui como sugestões de melhorias:
 
-- [x] Capturar todas as páginas disponíveis ao filtrar por "tecnologia no sympla"
+- [x] Capturar todas as páginas disponíveis ao filtrar por "tecnologia" no sympla
 - [ ] Filtrar os eventos por tecnologia, como: java, python, eventos acadêmicos, feiras, amostras..
 - [ ] Capturar eventos de outros sites relevantes para a área da tecnologia
 - [ ] Possuir um link de redirecionamento para o evento na nossa página web
