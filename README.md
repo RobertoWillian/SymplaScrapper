@@ -33,7 +33,6 @@ O projeto ainda estána sua primeira versão e possui como sugestões de melhori
 
 * [Python](https://www.python.org/) - A linguagem utilizada
 * [Angular](https://angular.dev/) - Framework web
-* [XX](https://x.com/) - XXXX
 
 
 ## 📋 Pré-requisitos
