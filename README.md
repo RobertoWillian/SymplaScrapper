@@ -21,7 +21,7 @@ HUB este que centralizará algumas propostas e temas (feitos por outros alunos d
 
 ## 💻 Ajustes e melhorias
 
-O projeto ainda estána sua primeira versão e possui como sugestões de melhorias:
+O projeto está na sua primeira versão e possui como sugestões de melhorias:
 
 - [x] Capturar todas as páginas disponíveis ao filtrar por "tecnologia" no sympla
 - [ ] Filtrar os eventos por tecnologia, como: java, python, eventos acadêmicos, feiras, amostras..
@@ -60,7 +60,7 @@ Como rodar o aplicativo:
 5. Acesse a pasta do projeto no terminal/cmd `$ cd FrontEnd`
 6. Instale as dependências `$ npm Scrapper`
 7. Execute a aplicação em modo de desenvolvimento `$ npm start`
-8. O servidor iniciará na porta:4200 - acesse <http://localhost:4200>
+8. O servidor iniciará na porta: 4200 - acesse <http://localhost:4200>
 
 
 ## 📝 Licença
@@ -70,8 +70,8 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais de
 ## ✒️ Autores
 
 * **Ana Carolina Barbosa de Souza** - [github](https://github.com/anacarolbs) e [linkedin](https://www.linkedin.com/in/anacarolbs/)
-* **Guilherme Rodrigues Bastos** - [github](https://github.com/x) e [linkedin](https://github.com/x)
-* **Leonardo Ferreira Rodrigues** - [github](https://github.com/x) e [linkedin](https://github.com/x)
+* **Guilherme Rodrigues Bastos** - [github](https://github.com/EGG1203) e [linkedin](https://www.linkedin.com/in/guilhermebastosgg)
+* **Leonardo Ferreira Rodrigues** - [github](https://github.com/leonxrdofr) e [linkedin](https://www.linkedin.com/in/leonardo-ferreira-rodrigues-8247ab239)
 * **Marcus Vinicius Portela da Costa** - [github](https://github.com/marcusportela) e [linkedin](https://www.linkedin.com/in/marcusportelamp/)
 * **Robert Willian Costa Silva** - [github](https://github.com/RobertoWillian) e [linkedin](https://www.linkedin.com/in/robert-willian-costa-silva)
 
