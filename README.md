@@ -8,7 +8,7 @@ HUB este que centralizará algumas propostas e temas (feitos por outros alunos d
 
 ## ☕ Funcionalidades da Solução e Requisitos Funcionais:
 1. Extração de Dados dos Eventos:
-* A aplicação deve ser capaz de acessar eventos por meio de plataformas como Sympla ou Google Eventos, realizando consultas periódicas e enviando as informações à aplicação principal. Para isso, será utilizada a biblioteca Selenium do Python, extraindo dados essenciais como nome do evento, local, data e hora.
+* A aplicação deve ser capaz de acessar eventos por meio de plataformas como Sympla, realizando consultas periódicas e enviando as informações à aplicação principal. Para isso, será utilizada a biblioteca Selenium do Python, extraindo dados essenciais como nome do evento, local, data e hora.
 * É necessário realizar uma higienização dos dados obtidos, garantindo que sejam consistentes e úteis.
 * Os dados brutos devem ser transformados em informações estruturadas, que podem ser armazenadas em um banco de dados ou planilhas para posterior análise.
 
@@ -24,7 +24,7 @@ HUB este que centralizará algumas propostas e temas (feitos por outros alunos d
 O projeto está na sua primeira versão e possui como sugestões de melhorias:
 
 - [x] Capturar todas as páginas disponíveis ao filtrar por "tecnologia" no sympla
-- [ ] Filtrar os eventos por tecnologia, como: java, python, eventos acadêmicos, feiras, amostras..
+- [x] Filtrar os eventos por tecnologia, como: java, python, eventos acadêmicos, feiras, amostras..
 - [ ] Capturar eventos de outros sites relevantes para a área da tecnologia
 - [ ] Possuir um link de redirecionamento para o evento na nossa página web
 
