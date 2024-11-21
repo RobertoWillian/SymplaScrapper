@@ -114,31 +114,31 @@
   color: #0087D3;
 }
 
-/* Centraliza o conteúdo da search-box */
+
 .search-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Estilos para o botão de "Carregar eventos" */
+
 .search-box button {
-  background-color: #ffffff;         /* Fundo branco */
-  color: #333333;                    /* Cor do texto */
-  border: none;                      /* Remove borda */
-  border-radius: 20px;               /* Arredondamento maior */
-  padding: 10px 30px;                /* Espaçamento interno */
-  font-size: 16px;                   /* Tamanho do texto */
-  font-weight: bold;                 /* Texto em negrito */
-  cursor: pointer;                   /* Cursor de clique */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
-  transition: all 0.3s ease;         /* Transição suave */
+  background-color: #ffffff;         
+  color: #333333;                    
+  border: none;                      
+  border-radius: 20px;               
+  padding: 10px 30px;                
+  font-size: 16px;                   
+  font-weight: bold;                
+  cursor: pointer;                   
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;         
   margin-left: 10px;
 }
 
-/* Efeito hover para o botão */
+
 .search-box button:hover {
-  background-color: #f7f7f7;         /* Fundo cinza claro ao passar o mouse */
-  transform: translateY(-2px);       /* Efeito de elevação */
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+  background-color: #f7f7f7;         
+  transform: translateY(-2px);       
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
 }

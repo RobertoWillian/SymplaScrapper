@@ -1,6 +1,7 @@
+<!-- Faz o link para conseguir inserir ícones na aplicação -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-
+<!-- Header com os dados de filtro e com o botão de extrarir eventos-->
 <div class="cabecalho">
     <img src="estrela.png" alt="Imagem da estrela">
     <div class="search-container">
@@ -13,11 +14,13 @@
     </div>
 </div>
 
+<!-- Caso ainda não tenha extraído todos os eventos mostro um texto escrito carregando...-->
 <div class="eventos">
 @if (isLoading == true) {
     <h1>Carregando...</h1>
 }
 
+<!-- Gera os elementos de eventos ná pagina.-->
 @for (evento of filteredEventos(); track evento.Titulo) {
 
     @if (evento.Titulo != "") {

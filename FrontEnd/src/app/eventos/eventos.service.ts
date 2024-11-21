@@ -9,13 +9,14 @@ import { Eventos } from './eventos';
 
 export class EventosService {
 
-  //Passa o endereço da nossa Api (Tem que colocar isso em um arquivo depois, ta paia assim.)
+  //Passa o endereço da Api
   private apiUrl: string = "http://127.0.0.1:8000";
 
   constructor(private http: HttpClient, private params: HttpParams) { 
     this.apiUrl
   }
 
+  //Chama o método da API que extrai os eventos.
   getAll(): Observable<Eventos[]> {
     return this.http.get<Eventos[]>(`${this.apiUrl}/eventos`);
   }
