@@ -1,5 +1,7 @@
 # Web Scraping de Eventos com Python
 
+📌 [Link da apresentação em vídeo postada no YouTube](https://youtu.be/Z0z6lD3tm1w)
+
 ""Web Scraping" é a prática de coletar dados por qualquer meio que não seja um programa interagindo com uma API (ou, obviamente, por um ser humano usando um navegador web). Isso é comumente feito escrevendo um programa automatizado que consulta um servidor web, requisita dados (em geral, na forma de HTML e de outros arquivos que compõem as páginas web) e então faz parse desses dados para extrair as informações necessárias." (Fonte: MITCHELL, Ryan. Web Scraping com Python. 2ed. São Paulo: Novatec, 2019.).
 
 Neste projeto, alunos da matéria "Projeto de Linguagens de Programação", lecionada no curso de Ciência da Computação da UDF, tem como objetivo fazer um web scraping da plataforma de eventos "Sympla", captando os eventos de tecnologia e os listando em uma plataforma própria, que servirá como um HUB. 
